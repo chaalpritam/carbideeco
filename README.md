@@ -37,6 +37,15 @@ git submodule update --remote --merge
 | [`carbide-dev-docs`](./carbide-dev-docs) | Developer documentation covering architecture, SDK usage, and provider setup. |
 | [`homebrew-carbide`](./homebrew-carbide) | Homebrew tap for installing `carbide-node` on macOS. |
 
+## Stack
+
+Payments and the provider registry live on **Solana** (devnet today,
+mainnet-beta as a default-flippable target). Providers register themselves
+via the `carbide_registry` Anchor program; clients fund deals into the
+`carbide_escrow` program with USDC SPL tokens, and an authorised verifier
+co-signs each periodic release after a valid proof-of-storage. Ed25519
+keypairs follow Solana's standard derivation path `m/44'/501'/0'/0'`.
+
 ## Repository layout
 
 The ecosystem is split across multiple repos so that each component can ship and version independently. CarbideEco pins each submodule to a specific commit; bumping a submodule is an explicit commit in this repo, which gives a single source of truth for "which versions work together."
