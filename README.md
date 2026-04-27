@@ -28,7 +28,7 @@ git submodule update --remote --merge
 | Submodule | Description |
 | --- | --- |
 | [`carbide-node`](./carbide-node) | Storage provider node (Rust + Tauri GUI). Earns by contributing capacity to the marketplace. |
-| [`carbide-contracts`](./carbide-contracts) | Solidity contracts including `CarbideRegistry`, the on-chain provider registry. |
+| [`carbide-contracts`](./carbide-contracts) | On-chain Solana programs for the provider registry and payment escrow. |
 | [`carbide-discovery-service`](./carbide-discovery-service) | Node.js/TypeScript microservice that indexes the on-chain registry and serves provider discovery + quotes. |
 | [`carbide-ios-sdk`](./carbide-ios-sdk) | Swift SDK (iOS/macOS) for provider discovery, client-side encryption, and file upload/download. |
 | [`Carbide`](./Carbide) | iOS app for decentralized file storage, built on `carbide-ios-sdk`. |
