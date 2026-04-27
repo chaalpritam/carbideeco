@@ -1,0 +1,27 @@
+[submodule "Carbide"]
+	path = Carbide
+	url = git@github.com:chaalpritam/Carbide.git
+[submodule "CarbideDrive"]
+	path = CarbideDrive
+	url = git@github.com:chaalpritam/CarbideDrive.git
+[submodule "carbide-contracts"]
+	path = carbide-contracts
+	url = git@github.com:chaalpritam/carbide-contracts.git
+[submodule "carbide-dev-docs"]
+	path = carbide-dev-docs
+	url = git@github.com:chaalpritam/carbide-dev-docs.git
+[submodule "carbide-discovery-service"]
+	path = carbide-discovery-service
+	url = git@github.com:chaalpritam/carbide-discovery-service.git
+[submodule "carbide-ios-sdk"]
+	path = carbide-ios-sdk
+	url = git@github.com:chaalpritam/carbide-ios-sdk.git
+[submodule "carbide-node"]
+	path = carbide-node
+	url = git@github.com:chaalpritam/carbide-node.git
+[submodule "carbide.network"]
+	path = carbide.network
+	url = git@github.com:chaalpritam/carbide.network.git
+[submodule "homebrew-carbide"]
+	path = homebrew-carbide
+	url = git@github.com:chaalpritam/homebrew-carbide.git
