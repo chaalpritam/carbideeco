@@ -1,6 +1,6 @@
 # CarbideEco
 
-Meta-repository for the [Carbide Network](https://carbidenetwork.xyz) ecosystem — a decentralized storage marketplace where anyone can run a provider node and earn, and any client can store files across the network with end-to-end encryption.
+Meta-repository for the [Carbide Network](https://carbide.network) ecosystem — a decentralized storage marketplace where anyone can run a provider node and earn, and any client can store files across the network with end-to-end encryption.
 
 This repo aggregates every component of the stack as a git submodule, so you can clone the entire ecosystem in one shot.
 
